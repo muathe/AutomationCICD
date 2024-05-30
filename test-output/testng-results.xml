@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T03:18:22 EDT" name="Suite" finished-at="2024-05-28T03:19:05 EDT" duration-ms="43026">
+    <groups>
+      <group name="purchase">
+        <method signature="TestPage.runTest(java.util.HashMap)[pri:0, instance:automate.tests.TestPage@4bc222e]" name="runTest" class="automate.tests.TestPage"/>
+        <method signature="ErrorValidations.loginErrorValidation()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" name="loginErrorValidation" class="automate.tests.ErrorValidations"/>
+        <method signature="ErrorValidations.productErrorValidation()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" name="productErrorValidation" class="automate.tests.ErrorValidations"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-05-28T03:18:22 EDT" name="Test2" finished-at="2024-05-28T03:18:51 EDT" duration-ms="29039">
+      <class name="automate.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:22 EDT" name="launchApplication" finished-at="2024-05-28T03:18:29 EDT" duration-ms="6788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:29 EDT" name="loginErrorValidation" finished-at="2024-05-28T03:18:30 EDT" duration-ms="898" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at automate.tests.ErrorValidations.loginErrorValidation(ErrorValidations.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:30 EDT" name="tearDown" finished-at="2024-05-28T03:18:30 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:30 EDT" name="launchApplication" finished-at="2024-05-28T03:18:39 EDT" duration-ms="9212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:39 EDT" name="loginErrorValidation" finished-at="2024-05-28T03:18:40 EDT" duration-ms="791" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at automate.tests.ErrorValidations.loginErrorValidation(ErrorValidations.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:40 EDT" name="tearDown" finished-at="2024-05-28T03:18:40 EDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:40 EDT" name="launchApplication" finished-at="2024-05-28T03:18:46 EDT" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:46 EDT" name="productErrorValidation" finished-at="2024-05-28T03:18:51 EDT" duration-ms="4971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automate.tests.ErrorValidations@4c012563]" started-at="2024-05-28T03:18:51 EDT" name="tearDown" finished-at="2024-05-28T03:18:51 EDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automate.tests.ErrorValidations -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-05-28T03:18:22 EDT" name="Test1" finished-at="2024-05-28T03:19:05 EDT" duration-ms="43026">
+      <class name="automate.tests.TestPage">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:22 EDT" name="launchApplication" finished-at="2024-05-28T03:18:30 EDT" duration-ms="7388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:30 EDT" name="runTest" data-provider="getData" finished-at="2024-05-28T03:18:37 EDT" duration-ms="7161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ZARA COAT 3, Email=moe@hotmail.com, Password=12345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:37 EDT" name="tearDown" finished-at="2024-05-28T03:18:37 EDT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:37 EDT" name="launchApplication" finished-at="2024-05-28T03:18:45 EDT" duration-ms="7560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:45 EDT" name="runTest" data-provider="getData" finished-at="2024-05-28T03:18:52 EDT" duration-ms="7307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=IPHONE 13 PRO, Email=moema@hotmail.com, Password=123456}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:52 EDT" name="tearDown" finished-at="2024-05-28T03:18:52 EDT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:52 EDT" name="launchApplication" finished-at="2024-05-28T03:18:58 EDT" duration-ms="6066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="runTest(java.util.HashMap)[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:18:58 EDT" name="runTest" data-provider="getData" finished-at="2024-05-28T03:19:05 EDT" duration-ms="6719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ADIDAS ORIGINAL, Email=mike@hotmail.com, Password=1234567}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automate.tests.TestPage@4bc222e]" started-at="2024-05-28T03:19:05 EDT" name="tearDown" finished-at="2024-05-28T03:19:05 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automate.tests.TestPage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
